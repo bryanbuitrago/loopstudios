@@ -41,14 +41,14 @@
 }
 
 #hero {
-  background-image: url('/loopstudios-web-app/images/desktop/image-hero.jpg');
+  background-image: url('/images/desktop/image-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (max-width: 576px) {
   #hero {
-    background-image: url('/loopstudios-web-app/images/mobile/image-hero.jpg');
+    background-image: url('/images/mobile/image-hero.jpg');
     background-position: center;
   }
 }
@@ -87,15 +87,15 @@
   transform: rotate(90deg);
 }
 
-.open .animate-hamburger-top {
+.animate-hamburger-top {
   transform: rotate(45deg) translateY(6px) translateX(6px);
 }
 
-.open .hide-hamburger-middle {
+.hide-hamburger-middle {
   /* opacity: 0; */
   display: none;
 }
 
-.open .animate-hamburger-bottom {
+.animate-hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
