@@ -1,7 +1,7 @@
 import Image from 'next/image';
 const CreationsItem = ({ desktopImg, mobileImg, alt, title }) => {
   return (
-    <div className='group item-loopstudios'>
+    <div className='group item'>
       {/* Desktop Image  */}
       <Image
         src={desktopImg}
@@ -19,8 +19,8 @@ const CreationsItem = ({ desktopImg, mobileImg, alt, title }) => {
         className='w-full md:hidden'
       />
       {/*  Item Gradient */}
-      <div className='item-gradient-loopstudios'>
-        <h5 className='h5-loopstudios'>{title}</h5>
+      <div className='item-gradient'>
+        <h5 className=''>{title}</h5>
       </div>
     </div>
   );
